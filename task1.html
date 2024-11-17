@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Booking</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">AdventureTime</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#bookings">Bookings</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Adventure Awaits</h1>
+            <p>Book your next adventure with us and explore new horizons!</p>
+            <a href="#destinations" class="cta-btn">Explore Destinations</a>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="destinations">
+        <div class="container">
+            <h2>Top Destinations</h2>
+            <div class="destination-list">
+                <div class="destination-item">
+                    <img src="img1.jpeg" alt="Mountain Adventure">
+                    <h3>Mountain Adventure</h3>
+                    <p>Hike to new heights with breathtaking views.</p>
+                </div>
+                <div class="destination-item">
+                    <img src="img2.jpg" alt="Beach Relaxation">
+                    <h3>Beach Relaxation</h3>
+                    <p>Soak up the sun and enjoy the calming waves.</p>
+                </div>
+                <div class="destination-item">
+                    <img src="img3.jpeg" alt="Safari Exploration">
+                    <h3>Safari Exploration</h3>
+                    <p>Experience wildlife like never before in the heart of nature.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bookings Section -->
+    <section id="bookings" class="bookings">
+        <div class="container">
+            <h2>Plan Your Adventure</h2>
+            <form>
+                <label for="destination">Choose Your Destination</label>
+                <select id="destination">
+                    <option value="mountain">Mountain Adventure</option>
+                    <option value="beach">Beach Relaxation</option>
+                    <option value="safari">Safari Exploration</option>
+                </select>
+
+                <label for="dates">Pick Your Dates</label>
+                <input type="date" id="dates" required>
+
+                <button type="submit" class="cta-btn">Book Now</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit" class="cta-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 AdventureTime. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
